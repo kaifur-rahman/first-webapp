@@ -1,0 +1,106 @@
+#header{
+  margin-top:10px;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  margin:0;
+  font-family: 'Russo One', sans-serif;
+  color: #623CD3;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  font-size: 3.8rem;
+
+}
+
+h2{
+  font-family: 'Hammersmith One', sans-serif;
+  letter-spacing: 2px;
+}
+.footer{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.1rem;
+
+}
+body{
+  background-image: linear-gradient(to right,#F09819,#EDDE5D);
+}
+
+.heart{
+  color:red;
+}
+
+#calc_outer_border{
+  border-style: double;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 20%;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+
+  height:400px;
+}
+
+/*buttons*/
+.numbtn{
+  margin:10px;
+  font-size: 1.1rem;
+}
+
+.opbtn{
+  margin:10px;
+  font-size: 1.1rem;
+}
+
+.equalbtn{
+  font-size: 3rem;
+  width: 100px;
+
+}
+
+.clsbtn{
+  margin: 10px;
+}
+
+/*number button div*/
+#number_buttons{
+  margin-top: 10%;
+
+}
+
+
+
+/*operator button div*/
+#operators_buttons{
+  margin-top: 1%;
+
+
+}
+/*screen div*/
+#screen{
+  margin-top:10%;
+}
+#screen_display{
+  background-color: black;
+  color:white;
+  text-align: right;
+  padding: 1%;
+}
+#screen_value{
+  margin: 2px;
+}
+
+
+/* equal button div*/
+#eqlbtn{
+  margin-top: 5%;
+  text-align: right;
+}
+#footer{
+  margin-top: 50px;
+  height:25px;
+
+}

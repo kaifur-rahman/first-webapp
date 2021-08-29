@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Julius+Sans+One&family=Rock+Salt&family=Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+    <!--heading-->
+    <section id="header">
+      <h1> Simple Calculator</h1>
+      </section>
+
+
+      <!--body-->
+    <section id="Calculator">
+      <div id="calc_outer_border" class="container">
+        <div class="container">
+  <div class="row">
+    <div class="col-6">
+      <!--number buttons 1st col-->
+      <div id="number_buttons">
+        <h2>Numbers</h2>
+        <button class="numbtn btn btn-dark btn-lg">0</button>
+        <button class="numbtn btn btn-dark btn-lg">1</button>
+        <button class="numbtn btn btn-dark btn-lg">2</button>
+        <button class="numbtn btn btn-dark btn-lg">3</button>
+        <button class="numbtn btn btn-dark btn-lg">4</button>
+        <button class="numbtn btn btn-dark btn-lg">5</button>
+        <button class="numbtn btn btn-dark btn-lg">6</button>
+        <button class="numbtn btn btn-dark btn-lg">7</button>
+        <button class="numbtn btn btn-dark btn-lg">8</button>
+        <button class="numbtn btn btn-dark btn-lg">9</button>
+        </div>
+    </div>
+    <div class="col-6">
+      <!-- screen col 2-->
+      <div id="screen">
+        <h2>Screen</h2>
+        <div id=screen_display>
+          <h2 id="screen_value">0</h2>
+        </div>
+      <div id="eqlbtn">
+        <button class="clsbtn btn btn-danger">CLS</button>
+        <button class="equalbtn btn btn-danger">=</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+      <!-- operators button col-->
+        <div class="col-12">
+          <div id="operators_buttons">
+            <h2>Operators</h2>
+            <button class="opbtn btn btn-success btn-lg">+</button>
+            <button class="opbtn btn btn-success btn-lg">-</button>
+            <button class="opbtn btn btn-success btn-lg">*</button>
+            <button class="opbtn btn btn-success btn-lg">/</button>
+            <button class="opbtn btn btn-success btn-lg">%</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+      </div>
+        </div>
+      </section>
+    <!--footer-->
+    <section id="footer">
+      <p class="footer">
+        Developed By Kaifur Rahman <strong class="heart">&#x2764</strong>
+        </p>
+    </section>
+  <script type="text/javascript" src="index.js">
+  </script>
+  </body>
+</html>
