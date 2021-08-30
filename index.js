@@ -170,19 +170,18 @@ function catchInputOperator(){
 //to store input numbers into an array
 function storeNumbers(inputNum){
   arrayNumberOpt.push(inputNum);
-  console.log(arrayNumberOpt)
+  
 }
 //to store input operator into an array
 function storeOperator(inputOperator){
   arrayNumberOpt.push(inputOperator);
-  console.log(arrayNumberOpt);
+  
 }
 
 
 //to display clicked number or operator on screenValue
 function display(input){
   dispStr=dispStr+input;
-  console.log(dispStr);
   displayInScreen(dispStr);
 }
 
@@ -272,12 +271,6 @@ for(i=0;i<n;i++){///iterating through each element in array
   else{
   }
 }
-
-console.log("Add Index is "+ plusIndex+" 1st no. is "+num1+" 2nd no. is "+num2);
-console.log("Sub Index is "+ minusIndex+" 1st no. is "+num1+" 2nd no. is "+num2);
-console.log("Mul Index is "+ mulIndex+" 1st no. is "+num1+" 2nd no. is "+num2);
-console.log("div Index is "+ divIndex+" 1st no. is "+num1+" 2nd no. is "+num2);
-console.log("mod Index is "+ modIndex+" 1st no. is "+num1+" 2nd no. is "+num2);
 }
 
 
