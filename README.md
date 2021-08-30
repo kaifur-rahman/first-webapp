@@ -1,5 +1,5 @@
 # first-webapp
-This my first project on web application using Html, Css, Bootstrap & Javascript it is a very basic calculator but time to time I will be working on implementing new features.
+This is my first project on web application using Html, CSS, Bootstrap & Javascript it is a very basic calculator but time to time I will be working on implementing new features.
 
 Current Features:
 1) It can take up to 33 digits
